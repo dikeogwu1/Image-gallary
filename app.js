@@ -3,6 +3,7 @@ require("express-async-errors");
 const express = require("express");
 const app = express();
 const authenticateUser = require("./middleware/authentication");
+const path = require("path");
 
 // extra security packages
 const helmet = require("helmet");
@@ -29,7 +30,7 @@ app.use(
     max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
   })
 );
-app.use(express.json("./public"));
+app.use(express.json(path.join(__dirname, "/public/index.html")));
 // extra packages
 app.use(helmet());
 app.use(cors());
