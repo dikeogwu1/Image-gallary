@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang=en>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="ie=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title> Image gallery | api docs</title>
+
+<div class=container-fluid>
+ <div class=row>
+  <div class="col-md-12 collection-intro">
+   <h3>Image gallery | api docs</h3>
+   <p>
+  </div>
+  <div class=col-md-12>
+   <div class=col-md-3>
+    <ul>
+     <li><strong><a href=#Ungrouped>Ungrouped</a></strong>
+      <ul>
+       <li><a class=endpoint_menu href=#jump-Ungrouped-DragandDrop>Drag and Drop</a>
+       <li><a class=endpoint_menu href=#jump-Ungrouped-GetCurrentUser>Get Current User</a>
+       <li><a class=endpoint_menu href=#jump-Ungrouped-GetAllImages>Get All Images</a>
+       <li><a class=endpoint_menu href=#jump-Ungrouped-LoginUser>Login User</a>
+       <li><a class=endpoint_menu href=#jump-Ungrouped-RegisterUser>Register User</a>
+      </ul>
+    </ul>
+   </div>
+   <div class=col-md-9>
+    <div class="panel panel-default">
+     <div class=panel-heading>
+      <h3 class=panel-title id=Ungrouped>Ungrouped
+       <span class=badge>5</span>
+      </h3>
+     </div>
+     <div class=panel-body>
+      <p>
+      <div class=request-item>
+       <div class=panel-group id=accordion-Ungrouped>
+        <div class="panel panel-info" id=jump-Ungrouped-DragandDrop>
+         <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info data-toggle=collapse
+           data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-DragandDrop>
+           <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Drag and Drop</strong>
+            &nbsp;|&nbsp;
+            <strong class="request-method border-info">GET</strong>
+            &nbsp;
+            https://hngx-image-server.onrender.com/api/v1/drag
+           </h4>
+          </a></div>
+         <div id=collapse-Ungrouped-DragandDrop class="panel-collapse collapse">
+          <div class=panel-body></div>
+         </div>
+        </div>
+        <div class="panel panel-info" id=jump-Ungrouped-GetCurrentUser>
+         <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info data-toggle=collapse
+           data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-GetCurrentUser>
+           <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get Current User</strong>
+            &nbsp;|&nbsp;
+            <strong class="request-method border-info">GET</strong>
+            &nbsp;
+            https://hngx-image-server.onrender.com/api/v1/auth/currentUser
+           </h4>
+          </a></div>
+         <div id=collapse-Ungrouped-GetCurrentUser class="panel-collapse collapse">
+          <div class=panel-body>
+           <h5 class="label label-warning">Headers</h5>
+           <table class="table table-hover">
+            <thead>
+             <tr>
+              <th>Key
+              <th>Value
+              <th>Description
+            <tbody>
+             <tr>
+              <td>Authorization
+              <td>Bearer
+               eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGRkYTdjZTY5NTY3NDBjYzBmMGZiMTYiLCJuYW1lIjoic3RlbGxhIiwiaWF0IjoxNjkyMjQ4MDE0LCJleHAiOjE2OTQ4NDAwMTR9.EZB4kTT7KUCjJ5f7Jq4isMTTNd8UoKXgQxiEqSg28bc
+              <td>
+           </table>
+          </div>
+         </div>
+        </div>
+        <div class="panel panel-info" id=jump-Ungrouped-GetAllImages>
+         <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info data-toggle=collapse
+           data-parent=#accordion-Ungrouped href=#collapse-Ungrouped-GetAllImages>
+           <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get All Images</strong>
+            &nbsp;|&nbsp;
+            <strong class="request-method border-info">GET</strong>
+            &nbsp;
+            https://hngx-image-server.onrender.com/api/v1/image
+           </h4>
+          </a></div>
+         <div id=collapse-Ungrouped-GetAllImages class="panel-collapse collapse">
+          <div class=panel-body>
+           <h5 class="label label-warning">Headers</h5>
+           <table class="table table-hover">
+            <thead>
+             <tr>
+              <th>Key
+              <th>Value
+              <th>Description
+            <tbody>
+             <tr>
+              <td>Authorization
+              <td>Bearer
+               eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGRkYTdjZTY5NTY3NDBjYzBmMGZiMTYiLCJuYW1lIjoic3RlbGxhIiwiaWF0IjoxNjkyMjQ4MDE0LCJleHAiOjE2OTQ4NDAwMTR9.EZB4kTT7KUCjJ5f7Jq4isMTTNd8UoKXgQxiEqSg28bc
+              <td>
+           </table>
+          </div>
+         </div>
+        </div>
+        <div class="panel panel-success" id=jump-Ungrouped-LoginUser>
+         <div class=panel-heading><small class="pull-right text-muted">raw</small>
+          <a class=text-success data-toggle=collapse data-parent=#accordion-Ungrouped
+           href=#collapse-Ungrouped-LoginUser>
+           <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Login User</strong> &nbsp;|&nbsp;
+            <strong class="request-method border-success">POST</strong>
+            &nbsp;
+            https://hngx-image-server.onrender.com/api/v1/auth/login
+           </h4>
+          </a>
+         </div>
+         <div id=collapse-Ungrouped-LoginUser class="panel-collapse collapse">
+          <div class=panel-body>
+           <h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+            &#34;email&#34;:&#34;user@example.com&#34;,
+            &#34;password&#34;:&#34;1Password&#34;
+            }</span>
+           <div class=clearfix></div>
+          </div>
+         </div>
+        </div>
+        <div class="panel panel-success" id=jump-Ungrouped-RegisterUser>
+         <div class=panel-heading><small class="pull-right text-muted">raw</small>
+          <a class=text-success data-toggle=collapse data-parent=#accordion-Ungrouped
+           href=#collapse-Ungrouped-RegisterUser>
+           <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Register User</strong>
+            &nbsp;|&nbsp;
+            <strong class="request-method border-success">POST</strong>
+            &nbsp;
+            https://hngx-image-server.onrender.com/api/v1/auth/register
+           </h4>
+          </a>
+         </div>
+         <div id=collapse-Ungrouped-RegisterUser class="panel-collapse collapse">
+          <div class=panel-body>
+           <h5 class="label label-primary">Body</h5><span class=resp-prettyprint>{
+            &#34;name&#34;:&#34;Demo User&#34;,
+            &#34;email&#34;:&#34;user@example.com&#34;,
+            &#34;password&#34;:&#34;1Password&#34;
+            }</span>
+           <div class=clearfix></div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="./browser-app.js"></script><br><br>
+ <footer class="navbar-default navbar-fixed-bottom">
+  <div class=container-fluid>
+   <div class="span12 text-center"><span data-toggle=tooltip
+     title="If the application help you, please feel free to give a star to the project in github. Your star inspire me to work more on open-source projects like this!">Generated
+     at 2023-09-22 11:28:51 by <a href=https://github.com/thedevsaddam/docgen target=_blank
+      class=text-muted>docgen</a></span></div>
+  </div>
+ </footer>
