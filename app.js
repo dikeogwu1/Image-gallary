@@ -30,13 +30,13 @@ app.use(
     max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
   })
 );
-app.use(express.json(path.join(__dirname, "/public/index.html")));
+app.use(express.json());
 // extra packages
 app.use(helmet());
 app.use(cors());
 app.use(xss());
 
-app.use(express.static());
+app.use(express.static("./public"));
 // routes
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/image", imageRouter);
